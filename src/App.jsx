@@ -6,11 +6,11 @@ import HomePage from "./pages/HomePage";
 const App = () => {
   return (
     <div className="App">
-      <Routes>
-        <Layout>
+      <Layout>
+        <Routes>
           <Route path="/" element={<HomePage />} />
-        </Layout>
-      </Routes>
+        </Routes>
+      </Layout>
     </div>
   );
 };
