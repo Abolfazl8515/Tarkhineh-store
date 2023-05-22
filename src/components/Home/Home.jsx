@@ -3,6 +3,7 @@ const Home = () => {
     <main>
       <Slider />
       <MenuRestaurant />
+      <AboutUs />
     </main>
   );
 };
@@ -103,6 +104,78 @@ const MenuRestaurant = () => {
             </button>
           </li>
         </ul>
+      </div>
+    </section>
+  );
+};
+
+const AboutUs = () => {
+  return (
+    <section className="w-full h-96 mt-20 flex flex-wrap justify-around items-center bg-[url('src/assets/images/aboutBackground.png')] bg-no-repeat bg-cover">
+      <div className="w-1/3 h-4/5 flex flex-col justify-center">
+        <h3 className="text-white font-estedad font-bold text-xl text-right">
+          رستوران های زنجیره ایی ترخینه
+        </h3>
+        <p className="py-5 font-estedad text-white text-right">
+          مهمان‌نوازی یکی از مهم‌ترین مشخصه‌های ایرانیان است و باعث افتخار ماست
+          که بیش از 20 سال است خدمت‌گزار مردم شریف ایران هستیم. ما در
+          رستوران‌های زنجیره‌ای ترخینه همواره تلاش کردیم که در محیطی اصیل بر
+          پایه معماری و طراحی مدرن در کنار طبیعتی دلنواز، غذایی سالم و درخور شان
+          شما عزیزان ارائه دهیم.
+        </p>
+        <div className="w-full flex justify-end">
+          <button
+            type="button"
+            className="w-44 h-10 text-white flex justify-center items-center bg-transparent border border-solid border-white rounded-md"
+          >
+            <span className="font-estedad ml-2">اطلاعات بیشتر</span>
+            <img src="src/assets/icons/arrowLeft.svg" alt="more info icon" />
+          </button>
+        </div>
+      </div>
+      <div className="w-1/5 h-4/5 flex flex-wrap justify-between items-center">
+        <div className="w-1/2 flex items-center flex-col">
+          <img
+            src="src/assets/icons/userAboutIcon.svg"
+            width="48"
+            height="48"
+            alt="user icon"
+          />
+          <p className="font-estedad text-white text-sm mt-3">
+            پرسنل مجرب و حرفه ایی
+          </p>
+        </div>
+        <div className="flex items-center flex-col">
+          <img
+            src="src/assets/icons/qualityIcon.svg"
+            width="48"
+            height="48"
+            alt="quality icon"
+          />
+          <p className="font-estedad text-white text-sm mt-3">
+            کیفیت بالای غذاها
+          </p>
+        </div>
+        <div className="flex items-center flex-col">
+          <img
+            src="src/assets/icons/wifiIcon.svg"
+            width="48"
+            height="48"
+            alt="wifi icon"
+          />
+          <p className="font-estedad text-white text-sm mt-3">
+            محیطی دلنشین و آرام
+          </p>
+        </div>
+        <div className="flex items-center flex-col text-sm mt-3">
+          <img
+            src="src/assets/icons/subjectIcon.svg"
+            width="48"
+            height="48"
+            alt="subject icon"
+          />
+          <p className="font-estedad text-white">منوی متنوع</p>
+        </div>
       </div>
     </section>
   );
