@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <>
-      <div className="relative w-full h-80">
+      <div className="relative w-full h-80 top-16">
         <div className="z-10 w-full h-full absolute bottom-0 bg-background-black"></div>
         <div className="flex w-full justify-around h-full bg-[url('src/assets/images/footer-background.avif')] bg-no-repeat bg-cover bg-center">
           <div className="z-20 flex justify-between items-center w-full">
