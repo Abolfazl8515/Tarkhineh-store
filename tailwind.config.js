@@ -7,10 +7,19 @@ export default {
         "green-primary": "#417F56",
         "gray-color": "#717171",
         "background-black": "rgba(0, 0, 0, 0.75)",
-        "title-color":"#353535"
+        "title-color": "#353535",
       },
       fontFamily: {
         estedad: "estedad",
+      },
+      animation: {
+        hover: "hoverImage 0.2s ease",
+      },
+      keyframes: {
+        hoverImage: {
+          "0%": { opacity: 0, height: 0 },
+          "100%": { opacity: 1 },
+        },
       },
     },
   },

@@ -4,6 +4,7 @@ const Home = () => {
       <Slider />
       <MenuRestaurant />
       <AboutUs />
+      <TarkhinehBranches />
     </main>
   );
 };
@@ -175,6 +176,170 @@ const AboutUs = () => {
             alt="subject icon"
           />
           <p className="font-estedad text-white">منوی متنوع</p>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+const TarkhinehBranches = () => {
+  return (
+    <section className="w-full h-96 flex flex-col items-center">
+      <h2 className="my-3 font-estedad font-bold text-2xl text-title-color">
+        ترخینه گردی
+      </h2>
+      <div className="w-full flex justify-evenly mt-5">
+        <div className="w-72 h-1/3 flex flex-col relative group">
+          <div className="absolute top-0 w-72 h-40 rounded-t-md cursor-pointer group-hover:flex group-hover:opacity-100 animate-hover transition-all opacity-0 hidden justify-center items-center bg-background-black">
+            <div className="absolute">
+              <img
+                src="src/assets/icons/hoverImageIcon.svg"
+                alt="hover image icon"
+              />
+              <img
+                src="src/assets/icons/hoverImageIcon2.svg"
+                alt="hover image icon"
+                className="absolute top-4 left-3.5"
+              />
+            </div>
+          </div>
+          <img
+            src="src/assets/images/branchImage1.png"
+            className="group-hover:h-40 transition-all h-60"
+            alt="branch image"
+          />
+          <h3 className="font-estedad font-bold text-lg text-title-color">
+            شعبه اکباتان
+          </h3>
+          <p className="text-sm text-title-color font-estedad">
+            چالوس خیابان 17 شهریور بعد کوچه کوروش جنب داروخانه دکتر میلانی
+          </p>
+          <div className="w-full flex justify-center">
+            <button
+              type="button"
+              className="w-32 h-8 mt-3 group-hover:flex hidden justify-center items-center bg-transparent border border-solid border-green-primary rounded-md font-estedad text-green-primary text-sm"
+            >
+              <span className="ml-2">صفحه شعبه</span>
+              <img
+                src="src/assets/icons/arrowLeftGreen.svg"
+                alt="more info icon"
+              />
+            </button>
+          </div>
+        </div>
+        <div className="w-72 h-1/3 flex flex-col relative group">
+          <div className="absolute top-0 w-72 h-40 rounded-t-md cursor-pointer group-hover:flex group-hover:opacity-100 animate-hover transition-all opacity-0 hidden justify-center items-center bg-background-black">
+            <div className="absolute">
+              <img
+                src="src/assets/icons/hoverImageIcon.svg"
+                alt="hover image icon"
+              />
+              <img
+                src="src/assets/icons/hoverImageIcon2.svg"
+                alt="hover image icon"
+                className="absolute top-4 left-3.5"
+              />
+            </div>
+          </div>
+          <img
+            src="src/assets/images/branchImage2.avif"
+            className="group-hover:h-40 transition-all h-60"
+            alt="branch image"
+          />
+          <h3 className="font-estedad font-bold text-lg text-title-color">
+            شعبه چالوس
+          </h3>
+          <p className="text-sm text-title-color font-estedad">
+            چالوس خیابان 17 شهریور بعد کوچه کوروش جنب داروخانه دکتر میلانی
+          </p>
+          <div className="w-full flex justify-center">
+            <button
+              type="button"
+              className="w-32 h-8 mt-3 group-hover:flex hidden justify-center items-center bg-transparent border border-solid border-green-primary rounded-md font-estedad text-green-primary text-sm"
+            >
+              <span className="ml-2">صفحه شعبه</span>
+              <img
+                src="src/assets/icons/arrowLeftGreen.svg"
+                alt="more info icon"
+              />
+            </button>
+          </div>
+        </div>
+        <div className="w-72 h-1/3 flex flex-col relative group">
+          <div className="absolute top-0 w-72 h-40 rounded-t-md cursor-pointer group-hover:flex group-hover:opacity-100 animate-hover transition-all opacity-0 hidden justify-center items-center bg-background-black">
+            <div className="absolute">
+              <img
+                src="src/assets/icons/hoverImageIcon.svg"
+                alt="hover image icon"
+              />
+              <img
+                src="src/assets/icons/hoverImageIcon2.svg"
+                alt="hover image icon"
+                className="absolute top-4 left-3.5"
+              />
+            </div>
+          </div>
+          <img
+            src="src/assets/images/branchImage3.png"
+            className="group-hover:h-40 transition-all h-60"
+            alt="branch image"
+          />
+          <h3 className="font-estedad font-bold text-lg text-title-color">
+            شعبه اکباتان
+          </h3>
+          <p className="text-sm text-title-color font-estedad">
+            چالوس خیابان 17 شهریور بعد کوچه کوروش جنب داروخانه دکتر میلانی
+          </p>
+          <div className="w-full flex justify-center">
+            <button
+              type="button"
+              className="w-32 h-8 mt-3 group-hover:flex hidden justify-center items-center bg-transparent border border-solid border-green-primary rounded-md font-estedad text-green-primary text-sm"
+            >
+              <span className="ml-2">صفحه شعبه</span>
+              <img
+                src="src/assets/icons/arrowLeftGreen.svg"
+                alt="more info icon"
+              />
+            </button>
+          </div>
+        </div>
+        <div className="w-72 h-1/3 flex flex-col relative group">
+          <div className="absolute top-0 w-72 h-40 rounded-t-md cursor-pointer group-hover:flex group-hover:opacity-100 animate-hover transition-all opacity-0 hidden justify-center items-center bg-background-black">
+            <div className="absolute">
+              <img
+                src="src/assets/icons/hoverImageIcon.svg"
+                alt="hover image icon"
+              />
+              <img
+                src="src/assets/icons/hoverImageIcon2.svg"
+                alt="hover image icon"
+                className="absolute top-4 left-3.5"
+              />
+            </div>
+          </div>
+          <img
+            src="src/assets/images/branchImage1.png"
+            className="group-hover:h-40 transition-all h-60"
+            alt="branch image"
+          />
+          <h3 className="font-estedad font-bold text-lg text-title-color">
+            شعبه اکباتان
+          </h3>
+          <p className="text-sm text-title-color font-estedad">
+            چالوس خیابان 17 شهریور بعد کوچه کوروش جنب داروخانه دکتر میلانی
+          </p>
+          <div className="w-full flex justify-center">
+            <button
+              type="button"
+              className="w-32 h-8 mt-3 group-hover:flex hidden justify-center items-center bg-transparent border border-solid border-green-primary rounded-md font-estedad text-green-primary text-sm"
+            >
+              <span className="ml-2">صفحه شعبه</span>
+              <img
+                src="src/assets/icons/arrowLeftGreen.svg"
+                alt="more info icon"
+              />
+            </button>
+          </div>
         </div>
       </div>
     </section>
