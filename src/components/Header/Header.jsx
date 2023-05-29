@@ -95,7 +95,7 @@ const Header = () => {
         </nav>
       </div>
       <div className="flex items-center w-1/3 justify-center">
-        <Link to="/" className="hidden md:block">
+        <Link to="/" className="hidden lg:block">
           <img src="src/assets/icons/search.svg" alt="search icon" />
         </Link>
         <Link to="/" className="md:mx-4">
