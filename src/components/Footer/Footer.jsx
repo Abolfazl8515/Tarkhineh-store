@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="z-10 w-full h-full absolute bottom-0 bg-background-black"></div>
         <div className="flex w-full justify-around h-full bg-[url('src/assets/images/footer-background.avif')] bg-no-repeat bg-cover bg-center">
           <div className="z-20 flex justify-between items-center w-full">
-            <div className="w-1/2 flex justify-around">
+            <div className="lg:w-1/2 w-full flex justify-between lg:justify-around">
               <div className="w-44">
                 <h2 className="text-left text-lg font-estedad font-bold text-white">
                   دسترسی اسان
@@ -54,7 +54,7 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className="w-2/5 mx-auto">
+            <div className="xl:w-2/5 w-2/3  mx-auto lg:block hidden">
               <h2 className="text-left font-estedad font-bold text-white">
                 پیام به ترخینه
               </h2>

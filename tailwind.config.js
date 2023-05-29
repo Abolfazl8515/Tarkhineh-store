@@ -14,11 +14,16 @@ export default {
       },
       animation: {
         hover: "hoverImage 0.2s ease",
+        menu: "showMenu 0.2s ease",
       },
       keyframes: {
         hoverImage: {
           "0%": { opacity: 0, height: 0 },
           "100%": { opacity: 1 },
+        },
+        showMenu: {
+          "0%": { width: 0 },
+          "100%": { width: "66%" },
         },
       },
     },
