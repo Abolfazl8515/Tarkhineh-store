@@ -1,41 +1,25 @@
+import Slider from "../Slider/Slider";
+import background from "../../assets/images/sliderBackground.png";
+
 const Home = () => {
   return (
     <main>
-      <Slider />
+      <Slider
+        title=" تجربه غذای سالم و گیاهی به سبک ترخینه"
+        btnTitle="سفارش انلاین غذا"
+        src={background}
+      />
       <div className="w-full my-10 flex lg:hidden justify-center items-center">
-        <input type="text" placeholder="جستجو ..." className="w-4/5 h-10 p-5 font-estedad border border-solid border-gray-400 rounded-md" />
+        <input
+          type="text"
+          placeholder="جستجو ..."
+          className="w-4/5 h-10 p-5 font-estedad border border-solid border-gray-400 rounded-md"
+        />
       </div>
       <MenuRestaurant />
       <AboutUs />
       <TarkhinehBranches />
     </main>
-  );
-};
-
-const Slider = () => {
-  return (
-    <section className="relative w-full h-64">
-      <div className="w-full h-full flex flex-col justify-between z-10 bg-[url('src/assets/images/sliderBackground.png')] bg-no-repeat bg-cover bg-center">
-        <div className="w-full flex justify-between sm:pt-20 pt-16">
-          <img src="src/assets/icons/arrowRight.svg" alt="arrow right icon" />
-          <h2 className="text-white font-estedad font-bold sm:text-3xl text-xl">
-            تجربه غذای سالم و گیاهی به سبک ترخینه
-          </h2>
-          <img src="src/assets/icons/arrowLeft.svg" alt="arrow left icon" />
-        </div>
-        <div className="w-full flex justify-center pt-5">
-          <button
-            type="button"
-            className="sm:w-48 w-44 h-10 bg-green-primary text-white flex justify-center items-center font-estedad rounded-md"
-          >
-            سفارش انلاین غذا
-          </button>
-        </div>
-        <div className="w-full flex justify-center ">
-          <img src="src/assets/images/numberSlider.svg" alt="Slider counter" />
-        </div>
-      </div>
-    </section>
   );
 };
 
