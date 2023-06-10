@@ -325,7 +325,7 @@ const UsersComments = () => {
           </div>
         </div>
         <div className="w-3/4 flex flex-col justify-center mr-5">
-          <p className="font-estedad text-title-color text-right">
+          <p className="font-estedad text-title-color text-right text-sm">
             از با صفا بودن شعبه اکباتان هر چی بگم کم گفتم. بهترین غذاهای گیاهی
             عمرمو اینجا خوردم. از مدیریت شعبه اکباتان رستوران‌های ترخینه واقعا
             تشکر میکنم.
