@@ -14,6 +14,7 @@ const Branch = () => {
       />
       <Products />
       <AboutBranch />
+      <UsersComments />
     </main>
   );
 };
@@ -267,27 +268,80 @@ const Products = () => {
 const AboutBranch = () => {
   return (
     <section className="w-full h-full flex flex-col mb-24">
-      <h2 className="font-estedad font-bold text-title-color text-2xl">شعبه اکباتان</h2>
+      <h2 className="font-estedad font-bold text-title-color text-2xl">
+        شعبه اکباتان
+      </h2>
       <div
         style={{ backgroundImage: `url(${background})` }}
         className="h-80 bg-cover bg-center bg-no-repeat w-full flex justify-between relative mt-5"
       >
-        <img src="src/assets/icons/arrowRightBranchSlider.svg" alt="next slide icon" />
+        <img
+          src="src/assets/icons/arrowRightBranchSlider.svg"
+          alt="next slide icon"
+        />
         <div className="w-auto h-auto py-5 px-14 flex justify-around items-center bg-white absolute right-96  -bottom-20 border-2 border-solid border-green-primary rounded-md">
           <div className="w-1/4 h-20 flex justify-between items-center flex-col">
             <img src="src/assets/icons/phone.svg" alt="phone icon" />
-            <p className="font-estedad text-title-color text-sm"><span className="block">021-64393972</span> 021-64393972</p>
+            <p className="font-estedad text-title-color text-sm">
+              <span className="block">021-64393972</span> 021-64393972
+            </p>
           </div>
           <div className="w-1/2 h-20 flex justify-between items-center flex-col">
             <img src="src/assets/icons/location.svg" alt="location icon" />
-            <p className="font-estedad text-title-color text-sm">شهرک اکباتان، فاز ۳، مجتمع تجاری کوروش، طبقه سوم</p>
+            <p className="font-estedad text-title-color text-sm">
+              شهرک اکباتان، فاز ۳، مجتمع تجاری کوروش، طبقه سوم
+            </p>
           </div>
           <div className="w-1/4 h-20 flex justify-between items-center flex-col">
             <img src="src/assets/icons/clock.svg" alt="clock icon" />
-            <p className="font-estedad text-title-color text-sm">همه‌روزه از ساعت ۱۲ الی ۲۳</p>
+            <p className="font-estedad text-title-color text-sm">
+              همه‌روزه از ساعت ۱۲ الی ۲۳
+            </p>
           </div>
         </div>
-        <img src="src/assets/icons/arrowLeftBranchSlider.svg" alt="previous slide icon" />
+        <img
+          src="src/assets/icons/arrowLeftBranchSlider.svg"
+          alt="previous slide icon"
+        />
+      </div>
+    </section>
+  );
+};
+
+const UsersComments = () => {
+  return (
+    <section className="w-full h-auto pt-10 flex flex-col justify-between items-center">
+      <h3 className="font-estedad font-bold text-2xl">نظرات کاربران</h3>
+      <div className="w-1/3 h-40 flex justify-between">
+        <div className="w-1/4 h-full flex flex-col justify-between">
+          <img src="src/assets/images/userCommentImage.png" alt="User Image" />
+          <div className="w-full flex flex-col">
+            <span className="font-estedad text-neutral-400 text-xs">
+              ابوالفضل بوربوری
+            </span>
+            <span className="font-estedad text-neutral-400 text-xs">
+              25 اسفند 1401
+            </span>
+          </div>
+        </div>
+        <div className="w-3/4 flex flex-col justify-center mr-5">
+          <p className="font-estedad text-title-color text-right">
+            از با صفا بودن شعبه اکباتان هر چی بگم کم گفتم. بهترین غذاهای گیاهی
+            عمرمو اینجا خوردم. از مدیریت شعبه اکباتان رستوران‌های ترخینه واقعا
+            تشکر میکنم.
+          </p>
+          <div className="w-full flex justify-end">
+            <p className="flex">
+              4 <img src="src/assets/icons/star.svg" alt="star icon" />
+            </p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img
+          src="src/assets/images/counterComments.png"
+          alt="counter comments slider"
+        />
       </div>
     </section>
   );
